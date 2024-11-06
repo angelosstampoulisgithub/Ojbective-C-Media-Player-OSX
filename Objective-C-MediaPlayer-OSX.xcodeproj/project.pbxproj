@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6FAF9792CDB508A00FC1A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAF95B2CDB508700FC1A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAF9622CDB508700FC1A5A;
+			remoteInfo = "Objective-C-MediaPlayer-OSX";
+		};
+		D6FAF9832CDB508A00FC1A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAF95B2CDB508700FC1A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAF9622CDB508700FC1A5A;
+			remoteInfo = "Objective-C-MediaPlayer-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6FAF9632CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-MediaPlayer-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAF9782CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-MediaPlayer-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAF9822CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-MediaPlayer-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6FAF9652CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-MediaPlayer-OSX";
+			sourceTree = "<group>";
+		};
+		D6FAF97B2CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-MediaPlayer-OSXTests";
+			sourceTree = "<group>";
+		};
+		D6FAF9852CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-MediaPlayer-OSXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FAF9602CDB508700FC1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF9752CDB508A00FC1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF97F2CDB508A00FC1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6FAF95A2CDB508700FC1A5A = {
+			isa = PBXGroup;
+			children = (
+				D6FAF9652CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */,
+				D6FAF97B2CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests */,
+				D6FAF9852CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests */,
+				D6FAF9642CDB508700FC1A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FAF9642CDB508700FC1A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAF9632CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX.app */,
+				D6FAF9782CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests.xctest */,
+				D6FAF9822CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FAF9622CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAF98C2CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSX" */;
+			buildPhases = (
+				D6FAF95F2CDB508700FC1A5A /* Sources */,
+				D6FAF9602CDB508700FC1A5A /* Frameworks */,
+				D6FAF9612CDB508700FC1A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6FAF9652CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */,
+			);
+			name = "Objective-C-MediaPlayer-OSX";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MediaPlayer-OSX";
+			productReference = D6FAF9632CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FAF9772CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAF98F2CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSXTests" */;
+			buildPhases = (
+				D6FAF9742CDB508A00FC1A5A /* Sources */,
+				D6FAF9752CDB508A00FC1A5A /* Frameworks */,
+				D6FAF9762CDB508A00FC1A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAF97A2CDB508A00FC1A5A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6FAF97B2CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests */,
+			);
+			name = "Objective-C-MediaPlayer-OSXTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MediaPlayer-OSXTests";
+			productReference = D6FAF9782CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FAF9812CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAF9922CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSXUITests" */;
+			buildPhases = (
+				D6FAF97E2CDB508A00FC1A5A /* Sources */,
+				D6FAF97F2CDB508A00FC1A5A /* Frameworks */,
+				D6FAF9802CDB508A00FC1A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAF9842CDB508A00FC1A5A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6FAF9852CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests */,
+			);
+			name = "Objective-C-MediaPlayer-OSXUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MediaPlayer-OSXUITests";
+			productReference = D6FAF9822CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FAF95B2CDB508700FC1A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D6FAF9622CDB508700FC1A5A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D6FAF9772CDB508A00FC1A5A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6FAF9622CDB508700FC1A5A;
+					};
+					D6FAF9812CDB508A00FC1A5A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6FAF9622CDB508700FC1A5A;
+					};
+				};
+			};
+			buildConfigurationList = D6FAF95E2CDB508700FC1A5A /* Build configuration list for PBXProject "Objective-C-MediaPlayer-OSX" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FAF95A2CDB508700FC1A5A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6FAF9642CDB508700FC1A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FAF9622CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */,
+				D6FAF9772CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXTests */,
+				D6FAF9812CDB508A00FC1A5A /* Objective-C-MediaPlayer-OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FAF9612CDB508700FC1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF9762CDB508A00FC1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF9802CDB508A00FC1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FAF95F2CDB508700FC1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF9742CDB508A00FC1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAF97E2CDB508A00FC1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FAF97A2CDB508A00FC1A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAF9622CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */;
+			targetProxy = D6FAF9792CDB508A00FC1A5A /* PBXContainerItemProxy */;
+		};
+		D6FAF9842CDB508A00FC1A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAF9622CDB508700FC1A5A /* Objective-C-MediaPlayer-OSX */;
+			targetProxy = D6FAF9832CDB508A00FC1A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6FAF98A2CDB508A00FC1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6FAF98B2CDB508A00FC1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6FAF98D2CDB508A00FC1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-MediaPlayer-OSX/Objective_C_MediaPlayer_OSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		D6FAF98E2CDB508A00FC1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-MediaPlayer-OSX/Objective_C_MediaPlayer_OSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D6FAF9902CDB508A00FC1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-MediaPlayer-OSX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-MediaPlayer-OSX";
+			};
+			name = Debug;
+		};
+		D6FAF9912CDB508A00FC1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-MediaPlayer-OSX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-MediaPlayer-OSX";
+			};
+			name = Release;
+		};
+		D6FAF9932CDB508A00FC1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Objective-C-MediaPlayer-OSX";
+			};
+			name = Debug;
+		};
+		D6FAF9942CDB508A00FC1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MediaPlayer-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Objective-C-MediaPlayer-OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FAF95E2CDB508700FC1A5A /* Build configuration list for PBXProject "Objective-C-MediaPlayer-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAF98A2CDB508A00FC1A5A /* Debug */,
+				D6FAF98B2CDB508A00FC1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAF98C2CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAF98D2CDB508A00FC1A5A /* Debug */,
+				D6FAF98E2CDB508A00FC1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAF98F2CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAF9902CDB508A00FC1A5A /* Debug */,
+				D6FAF9912CDB508A00FC1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAF9922CDB508A00FC1A5A /* Build configuration list for PBXNativeTarget "Objective-C-MediaPlayer-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAF9932CDB508A00FC1A5A /* Debug */,
+				D6FAF9942CDB508A00FC1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FAF95B2CDB508700FC1A5A /* Project object */;
+}
